@@ -6,6 +6,7 @@ html {
 body {
   /* Margin bottom by footer height */
   margin-bottom: 60px;
+  background: transparent;
 }
 .footer {
   color :black;
@@ -19,7 +20,8 @@ body {
 /* END FOOTER CSS*/
 .zone1 {
   min-height: 300px;
-
+  background: transparent;
+  background-color: #2ff9b7;
 }
 
 .top-spacing {
@@ -39,4 +41,7 @@ body {
 .img-move-left {
   position: relative;
   right : 10px;
+}
+.block-content{
+  visibility: hidden;
 }
