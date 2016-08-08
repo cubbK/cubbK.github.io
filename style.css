@@ -68,3 +68,9 @@ img {
   max-width: 90%;
 }
 body {overflow-x: hidden;}
+a:link{
+  color: #fe5757;
+}
+a:visited{
+  color: #fe5757;
+}
