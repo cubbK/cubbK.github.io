@@ -62,7 +62,7 @@ body {
    box-shadow: 10px 10px 5px #888888;
 }
 .contactsAndEducation{
-  /*visibility: hidden;*/
+  visibility: hidden;
 }
 img {
   max-width: 90%;
