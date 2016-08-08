@@ -1,13 +1,26 @@
 $( document ).ready(function () {
-  $('.block-content').on('inview', function(event, isInView) {
-  if (isInView) {
-    $(this).css('visibility' ,'visible');
+  var num = 0;
 
-    $(this).addClass( "animated bounceInRight" );
-  } else {
-    $(this).css('visibility' ,'hidden');
-    $(this).removeClass('animated bounceInRight');
+  $('.block-content').on('inview', function(event, isInView) {
+    if (isInView) {
+      $(this).css('visibility' ,'visible');
+      var anim = careParte(num);
+      num++;
+      
+      $(this).addClass( "animated " +anim );
+    } else {
+      $(this).css('visibility' ,'hidden');
+      $(this).removeClass('animated bounceInRight bounceInLeft');
+    }
+  });
+  function careParte(num){
+    if(num%2 == 0){
+
+      return 'bounceInLeft';
+    }else{
+
+      return 'bounceInRight';
+    }
   }
-});
 
 })

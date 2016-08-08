@@ -21,7 +21,7 @@ body {
 .zone1 {
   min-height: 300px;
   background: transparent;
-  background-color: #2ff9b7;
+  /*background-color: #2ff9b7; */
 }
 
 .top-spacing {
@@ -29,14 +29,14 @@ body {
 
 }
 .prog-img{
-  max-height: 400px;
+  max-height: 300px;
 }
 .title-app {
   margin-top: 50px;
   margin-bottom: 50px;
 }
 .img-icon{
-  height: 64px;
+  height: 36px;
 }
 .img-move-left {
   position: relative;
@@ -44,4 +44,20 @@ body {
 }
 .block-content{
   visibility: hidden;
+  min-height: 450px;
+}
+.color1{
+  background-color: #2ff9b7;
+}
+.color2 {
+  background-color: #b7e8ef;
+}
+.color3{
+  background-color: #d2c2f1;
+}
+.contactsAndEducation{
+  min-height: 400px;
+}
+.img-shadow{
+   box-shadow: 10px 10px 5px #888888;
 }
