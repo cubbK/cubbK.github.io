@@ -10,16 +10,16 @@ $( document ).ready(function () {
       $(this).addClass( "animated " +anim );
     } else {
       $(this).css('visibility' ,'hidden');
-      $(this).removeClass('animated zoomInLeft zoomInRight');
+      $(this).removeClass('animated fadeInLeft fadeInRight');
     }
   });
   function careParte(num){
     if(num%2 == 0){
 
-      return 'zoomInLeft';
+      return 'fadeInLeft';
     }else{
 
-      return 'zoomInRight';
+      return 'fadeInRight';
     }
   }
 
