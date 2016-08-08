@@ -6,20 +6,20 @@ $( document ).ready(function () {
       $(this).css('visibility' ,'visible');
       var anim = careParte(num);
       num++;
-      
+
       $(this).addClass( "animated " +anim );
     } else {
       $(this).css('visibility' ,'hidden');
-      $(this).removeClass('animated bounceInRight bounceInLeft');
+      $(this).removeClass('animated slideInLeft slideInRight');
     }
   });
   function careParte(num){
     if(num%2 == 0){
 
-      return 'bounceInLeft';
+      return 'slideInLeft';
     }else{
 
-      return 'bounceInRight';
+      return 'slideInRight';
     }
   }
 
