@@ -47,17 +47,20 @@ body {
   min-height: 450px;
 }
 .color1{
-  background-color: #2ff9b7;
+  background-color: #a8e6cf;
 }
 .color2 {
-  background-color: #b7e8ef;
+  background-color:#dcedc1;
 }
 .color3{
-  background-color: #d2c2f1;
+  background-color:#ffd3b6;
 }
 .contactsAndEducation{
   min-height: 400px;
 }
 .img-shadow{
    box-shadow: 10px 10px 5px #888888;
+}
+.contactsAndEducation{
+  visibility: hidden;
 }

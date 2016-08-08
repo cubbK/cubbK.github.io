@@ -23,4 +23,16 @@ $( document ).ready(function () {
     }
   }
 
+  $('.contactsAndEducation').on('inview', function(event, isInView) {
+    if (isInView) {
+      $(this).css('visibility' ,'visible');
+      $('.education').addClass('animated fadeInLeft');
+      $('.contact').addClass(' animated fadeInRight');
+
+    }else{
+      $(this).css('visibility' ,'hidden');
+      $('.education').removeClass('animated fadeInLeft ');
+      $('.contact').removeClass('animated fadeInRight');
+    }
+  });
 })
