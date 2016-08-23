@@ -1,4 +1,4 @@
-baseurl = "https://cubbic.github.io"
+baseurl = "https://cubbic.github.io/public"
 languageCode = "en-us"
 title = "Beautiful Hugo"
 theme = "beautifulhugo"
