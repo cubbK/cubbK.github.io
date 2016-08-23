@@ -1,6 +1,6 @@
-baseurl = "https://cubbic.github.io/public"
+baseurl = "https://cubbic.github.io/"
 languageCode = "en-us"
-title = "Beautiful Hugo"
+title = "Let's Write Something"
 theme = "beautifulhugo"
 pygmentsUseClasses = true
 #disqusShortname = "XXX"
