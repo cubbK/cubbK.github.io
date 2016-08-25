@@ -11,15 +11,12 @@ pygmentsUseClasses = true
   subtitle = "Build a beautiful and simple website in minutes"
 
 [Author]
-  name = "Some Person"
-  email = "youremail@domain.com"
-  facebook = "username"
-  github = "username"
-  twitter = "username"
-  linkedin = "pub/username/X/YYY/ZZZ"
-  stackoverflow = "XXXXXXX/username"
-  soundcloud = "username"
-  wikipedia = "username"
+  name = "cubbic"
+  email = "danpopa1998@gmail.com"
+
+  github = "cubbic"
+  twitter = "Cubbium"
+
 
 [[menu.main]]
     name = "Blog"
