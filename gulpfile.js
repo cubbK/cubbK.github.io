@@ -21,7 +21,8 @@ gulp.task('html', () => {
                 'ico',
                 'gif',
                 'js',
-                'css'
+                'css',
+                'svg'
             ],
             customAttributes: ['data-custom'],
             templates: true
