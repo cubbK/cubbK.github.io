@@ -1,11 +1,12 @@
 const fileinclude = require('gulp-file-include');
 const gulp = require('gulp');
 const sass = require('gulp-sass');
-const assetpaths = require('gulp-assetpaths');
 const sourcemaps = require('gulp-sourcemaps');
 const babel = require('gulp-babel');
 const concat = require('gulp-concat');
 const replace = require('gulp-replace');
+const browserify = require('browserify');
+const transform = require('vinyl-transform');
 
 gulp.task('html', () => {
     return gulp

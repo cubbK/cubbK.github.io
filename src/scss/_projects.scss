@@ -1,23 +1,16 @@
-.projects-title {
-    margin: 0;
-    color: $dark;
-    font-size: 25px;
-    position: relative;
-    padding-bottom: 40px;
-}
-
 .projects-list {
     display: flex;
-    padding-bottom: 200px;
     flex-wrap: wrap;
     justify-content: space-between;
 }
 
 .project {
     padding-bottom: 50px;
+    
 }
 
 .project-img {
+    border-radius: 3px 3px 0 0;
     width: 300px;
     height: 150px;
     display: block;

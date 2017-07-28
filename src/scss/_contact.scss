@@ -1,0 +1,21 @@
+.contact-title {
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 10px;
+    font-size: 40px;
+}
+
+.contact-list {
+    text-align: center;
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+    padding-bottom: 150px;
+    li {
+        padding: 5px 0;
+        a {
+            font-size: 25px;
+            text-decoration: none;
+        }
+    }
+}
