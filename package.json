@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start" : "gulp watch",
-    "server" : "live-server --watch=dist/"
+    "start": "gulp watch",
+    "server": "live-server --watch=dist/"
   },
   "repository": {
     "type": "git",
@@ -25,6 +25,7 @@
     "gulp-babel": "^6.1.2",
     "gulp-concat": "^2.6.1",
     "gulp-file-include": "^1.1.0",
+    "gulp-replace": "^0.6.1",
     "gulp-sass": "^3.1.0",
     "gulp-sourcemaps": "^2.6.0"
   }

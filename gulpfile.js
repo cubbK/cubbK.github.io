@@ -42,7 +42,7 @@ gulp.task('js', () => {
 gulp.task('watch', () => {
     gulp.watch([
         'src/pages/*.html', 'src/partials/*.html'
-    ], ['html']);
+    ], ['build']);
     gulp.watch(['src/scss/*.scss'], ['sass']);
     gulp.watch(['src/img/**/*'], ['img']);
     gulp.watch(['src/js/*.js'], ['js']);

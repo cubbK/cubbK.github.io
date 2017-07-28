@@ -1,17 +1,44 @@
 <html>
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Yo</title>
-    <link rel="stylesheet" href="../app.css">
+    <link rel="stylesheet" href="./app.css">
+    <script type="text/javascript" src="./app.js"></script>
 </head>
+
 <body>
-        @@include('../partials/sidebar.html')
-        <main>
-            <div class="container">
-                
-            </div>
-        </main>
+    @@include('../partials/sidebar.html')
+    <main>
+        <div class="container">
+            <section class="introduction">
+                <h1 class="title">
+                    Hi, I'm Dan - a Front-End Web Developer
+                </h1>
+                <h2 class="title-desc">
+                    A guy who focuses on writing clean and efficient code.
+                </h2>
+            </section>
+            <section class="projects">
+                <h3 class="projects-title">
+                    My work
+                </h3> 
+                <div class="projects-list">
+                    @@include('../partials/project.html')
+                    @@include('../partials/project.html')
+                    @@include('../partials/project.html')
+                    @@include('../partials/project.html')
+                    @@include('../partials/project.html')
+                    @@include('../partials/project.html')
+                    @@include('../partials/project.html')
+                    @@include('../partials/project.html')
+                    @@include('../partials/project.html')
+                </div>
+            </section>
+        </div>
+    </main>
 </body>
+
 </html>
