@@ -1,1 +1,0 @@
-{"version":3,"sources":["app.js","part.js"],"names":["yo","console","log"],"mappings":";;AAAA;;AACA,IAAMA,KAAK,QAAX;;AAEAC,QAAQC,GAAR,CAAYF,EAAZ;AACAC,QAAQC,GAAR;;;;;;ACJO,IAAMF,kBAAK,iBAAX","file":"app.js","sourcesContent":["import {yo as yoPart} from 'part.js';\r\nconst yo = 'yo man';\r\n\r\nconsole.log(yo);\r\nconsole.log(yoPart);\r\n","export const yo = 'yo from partial';"]}
