@@ -5,28 +5,13 @@ const assetpaths = require('gulp-assetpaths');
 const sourcemaps = require('gulp-sourcemaps');
 const babel = require('gulp-babel');
 const concat = require('gulp-concat');
+const replace = require('gulp-replace');
 
 gulp.task('html', () => {
     return gulp
         .src(['src/pages/*.html'])
         .pipe(fileinclude({prefix: '@@', basepath: '@file'}))
-        .pipe(assetpaths({
-            newDomain: '.',
-            oldDomain: '..',
-            docRoot: 'public_html',
-            filetypes: [
-                'jpg',
-                'jpeg',
-                'png',
-                'ico',
-                'gif',
-                'js',
-                'css',
-                'svg'
-            ],
-            customAttributes: ['data-custom'],
-            templates: true
-        }))
+        .pipe(replace('../img/', './img/'))
         .pipe(gulp.dest('./dist/'));
 });
 
@@ -34,22 +19,7 @@ gulp.task('sass', () => {
     return gulp
         .src('src/scss/app.scss')
         .pipe(sass().on('error', sass.logError))
-        .pipe(assetpaths({
-            newDomain: '.',
-            oldDomain: '..',
-            docRoot: 'public_html',
-            filetypes: [
-                'jpg',
-                'jpeg',
-                'png',
-                'ico',
-                'gif',
-                'js',
-                'css'
-            ],
-            customAttributes: ['data-custom'],
-            templates: true
-        }))
+        .pipe(replace('../img/', './img/'))
         .pipe(gulp.dest('./dist/'));
 });
 
