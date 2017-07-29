@@ -40,6 +40,12 @@ gulp.task('js', () => {
         .pipe(gulp.dest('dist/'));
 });
 
+gulp.task('copyStatic', () => {
+    gulp
+        .src(['src/proj-files/**/*'])
+        .pipe(gulp.dest('dist/proj-files'));
+})
+
 gulp.task('watch', () => {
     gulp.watch([
         'src/pages/**/*.html', 'src/partials/*.html'
@@ -47,8 +53,10 @@ gulp.task('watch', () => {
     gulp.watch(['src/scss/*.scss'], ['sass']);
     gulp.watch(['src/img/**/*'], ['img']);
     gulp.watch(['src/js/*.js'], ['js']);
+    gulp.watch(['src/proj-files/**/*', ['copyStatic']
+    ])
 })
 
 gulp.task('build', () => {
-    gulp.start('html', 'sass', 'img', 'js');
+    gulp.start('html', 'sass', 'img', 'js', 'copyStatic');
 })
