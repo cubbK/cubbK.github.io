@@ -1,0 +1,114 @@
+/*
+Icon classes can be used entirely standalone. They are named after their original file names.
+
+Example usage in HTML:
+
+`display: block` sprite:
+<div class="icon-home"></div>
+
+To change `display` (e.g. `display: inline-block;`), we suggest using a common CSS class:
+
+// CSS
+.icon {
+  display: inline-block;
+}
+
+// HTML
+<i class="icon icon-home"></i>
+*/
+.icon-benefits1 {
+  background-image: url(../img/spritesheet.png);
+  background-position: -283px -134px;
+  width: 71px;
+  height: 70px;
+}
+.icon-benefits2 {
+  background-image: url(../img/spritesheet.png);
+  background-position: -70px -235px;
+  width: 98px;
+  height: 47px;
+}
+.icon-benefits3 {
+  background-image: url(../img/spritesheet.png);
+  background-position: -283px 0px;
+  width: 77px;
+  height: 68px;
+}
+.icon-nav1 {
+  background-image: url(../img/spritesheet.png);
+  background-position: 0px 0px;
+  width: 100px;
+  height: 79px;
+}
+.icon-nav10 {
+  background-image: url(../img/spritesheet.png);
+  background-position: -204px -79px;
+  width: 78px;
+  height: 78px;
+}
+.icon-nav2 {
+  background-image: url(../img/spritesheet.png);
+  background-position: -79px -79px;
+  width: 79px;
+  height: 79px;
+}
+.icon-nav3 {
+  background-image: url(../img/spritesheet.png);
+  background-position: -204px 0px;
+  width: 79px;
+  height: 79px;
+}
+.icon-nav4 {
+  background-image: url(../img/spritesheet.png);
+  background-position: 0px -158px;
+  width: 80px;
+  height: 77px;
+}
+.icon-nav5 {
+  background-image: url(../img/spritesheet.png);
+  background-position: -160px -158px;
+  width: 80px;
+  height: 70px;
+}
+.icon-nav6 {
+  background-image: url(../img/spritesheet.png);
+  background-position: -80px -158px;
+  width: 80px;
+  height: 75px;
+}
+.icon-nav7 {
+  background-image: url(../img/spritesheet.png);
+  background-position: -283px -68px;
+  width: 77px;
+  height: 66px;
+}
+.icon-nav8 {
+  background-image: url(../img/spritesheet.png);
+  background-position: -360px -70px;
+  width: 43px;
+  height: 79px;
+}
+.icon-nav9 {
+  background-image: url(../img/spritesheet.png);
+  background-position: 0px -79px;
+  width: 79px;
+  height: 79px;
+}
+.icon-test1 {
+  background-image: url(../img/spritesheet.png);
+  background-position: -360px 0px;
+  width: 51px;
+  height: 70px;
+}
+.icon-test2 {
+  background-image: url(../img/spritesheet.png);
+  background-position: 0px -235px;
+  width: 70px;
+  height: 70px;
+}
+.icon-test3 {
+  background-image: url(../img/spritesheet.png);
+  background-position: -100px 0px;
+  width: 104px;
+  height: 68px;
+}
