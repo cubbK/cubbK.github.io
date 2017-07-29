@@ -10,7 +10,7 @@ const transform = require('vinyl-transform');
 
 gulp.task('html', () => {
     return gulp
-        .src(['src/pages/*.html'])
+        .src(['src/pages/**/*.html'])
         .pipe(fileinclude({prefix: '@@', basepath: '@file'}))
         .pipe(replace('../img/', './img/'))
         .pipe(gulp.dest('./dist/'));
@@ -42,7 +42,7 @@ gulp.task('js', () => {
 
 gulp.task('watch', () => {
     gulp.watch([
-        'src/pages/*.html', 'src/partials/*.html'
+        'src/pages/**/*.html', 'src/partials/*.html'
     ], ['build']);
     gulp.watch(['src/scss/*.scss'], ['sass']);
     gulp.watch(['src/img/**/*'], ['img']);
