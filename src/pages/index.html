@@ -12,8 +12,12 @@
                     My work
                 </h3> 
                 <div class="projects-list">
-                    @@include('../partials/project.html')
-                    @@include('../partials/project.html')
+                    @@include('../partials/project.html', {
+                        "type" : "Website",
+                        "img" : "../img/page/1/placeholder.png",
+                        "id" : "1"
+                    }) 
+                    @@include('../partials/project.html') 
                     @@include('../partials/project.html')
                     @@include('../partials/project.html')
                     @@include('../partials/project.html')

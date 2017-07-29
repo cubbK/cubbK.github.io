@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "gulp watch",
-    "server": "live-server dist --watch=dist/ "
+    "server": "live-server dist"
   },
   "repository": {
     "type": "git",
