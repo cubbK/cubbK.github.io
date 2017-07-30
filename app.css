@@ -1,0 +1,158 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,700");
+@import url("https://fonts.googleapis.com/css?family=VT323");
+body {
+  background-color: #efefef;
+  font-family: 'Roboto', sans-serif;
+  color: #070707; }
+
+.container {
+  width: 978px;
+  margin: 0 auto; }
+
+.title-section {
+  margin: 0;
+  color: #070707;
+  font-size: 25px;
+  position: relative;
+  padding-bottom: 40px; }
+
+a {
+  color: #070707;
+  font-size: 20px;
+  transition: all 0.1s; }
+  a:hover, a:active, a:focus {
+    color: #34d1bf; }
+
+.sidebar {
+  display: flex;
+  justify-content: center;
+  width: 100px;
+  height: 100%;
+  background-color: #070707;
+  position: fixed;
+  top: 0;
+  left: 0; }
+
+.sidebar-logo {
+  margin-top: 20px;
+  height: 60px;
+  display: block; }
+
+.title {
+  margin: 0;
+  padding-top: 140px;
+  color: #070707;
+  font-size: 36px; }
+
+.title-desc {
+  color: #070707;
+  font-size: 25px;
+  margin: 0;
+  padding-top: 25px;
+  padding-bottom: 150px; }
+
+.projects-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; }
+
+.project {
+  padding-bottom: 15px;
+  margin-bottom: 50px;
+  box-shadow: 3px 3px 9px 0px #222;
+  background-color: #fefefe; }
+
+.project-img {
+  border-radius: 3px 3px 0 0;
+  width: 300px;
+  height: 150px;
+  display: block;
+  overflow: hidden; }
+  .project-img img {
+    transition: all 0.1s; }
+  .project-img:hover img, .project-img:active img, .project-img:focus img {
+    transform: scale(1.2); }
+
+.project-role,
+.project-type {
+  padding-left: 10px;
+  font-size: 18px;
+  padding-top: 10px; }
+  .project-role span,
+  .project-type span {
+    color: #d1345b;
+    width: 60px;
+    font-weight: 700;
+    padding-right: 5px; }
+
+.contact-title {
+  text-align: center;
+  padding-top: 70px;
+  padding-bottom: 10px;
+  font-size: 40px; }
+
+.contact-list {
+  text-align: center;
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
+  padding-bottom: 150px; }
+  .contact-list li {
+    padding: 5px 0; }
+    .contact-list li a {
+      font-size: 25px;
+      text-decoration: none; }
+
+.page-name {
+  text-transform: uppercase;
+  margin: 0;
+  padding-top: 50px;
+  font-size: 40px;
+  letter-spacing: 2px; }
+
+.page-role,
+.page-tools,
+.page-type {
+  font-size: 18px;
+  padding-top: 15px;
+  letter-spacing: 1px; }
+  .page-role span,
+  .page-tools span,
+  .page-type span {
+    color: #d1345b;
+    width: 60px;
+    font-weight: 700;
+    padding-right: 5px; }
+
+.page-images {
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+  padding-bottom: 100px;
+  flex-wrap: wrap; }
+
+.page-image {
+  box-shadow: 1px 4px 20px 1px #222;
+  width: 800px;
+  height: 1000px; }
+  .page-image.small {
+    width: 350px;
+    height: 500px;
+    margin: 50px  50px 0; }
+  .page-image img {
+    height: 100%;
+    width: 100%; }
+
+.page-link {
+  display: block;
+  width: 150px;
+  line-height: 50px;
+  background-color: #34d1bf;
+  text-align: center;
+  text-decoration: none;
+  color: #efefef;
+  margin-top: 25px;
+  transition: all 0.1s; }
+  .page-link:hover, .page-link:focus, .page-link:active {
+    background-color: #d1345b;
+    color: #efefef; }

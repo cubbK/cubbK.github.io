@@ -1,0 +1,239 @@
+ header {
+   background-image: url("../img/header.png");
+   background-size: cover;
+ }
+
+ .menu-wrapper {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding-top: 20px;
+   @media(max-width: 420px) {
+     flex-direction: column;
+     padding-top: 15px;
+   }
+ }
+
+ .logo {
+   display: flex;
+   color: @main;
+   @media(max-width: 420px) {
+     display: block;
+     text-align: center;
+   }
+ }
+
+ .logo-text-big {
+   color: @main;
+   padding-left: 20px;
+   font-size: 30px;
+   font-weight: 700;
+   text-transform: uppercase;
+   @media(max-width: 420px) {
+     padding-left: 0;
+   }
+ }
+
+ .logo-text-small {
+   padding-left: 25px;
+   letter-spacing: 10px;
+   color: @main;
+   font-size: 10px;
+   font-weight: 600;
+   text-transform: uppercase;
+   @media(max-width: 420px) {
+     padding-left: 0;
+   }
+ }
+
+ .menu {
+   font-size: 0;
+   a {
+     padding: 5px 10px;
+     color: @main;
+     font-size: 15px;
+     font-weight: 600;
+     text-transform: uppercase;
+     @media(max-width: 1200px) {
+       padding: 5px 4px;
+       font-size: 13px;
+     }
+     @media(max-width:991px) {
+       padding: 5px 4px;
+       font-size: 20px;
+     }
+   }
+   @media(max-width:991px) {
+     display: none;
+   }
+ }
+
+ h1 {
+   color: @main;
+   font-size: 77px;
+   font-weight: 700;
+   line-height: 85px;
+   text-transform: uppercase;
+   padding-top: 70px;
+   span {
+     color: @accent;
+   }
+   @media(max-width:767px) {
+     text-align: center;
+     font-size: 60px;
+     line-height: 65px;
+     padding-top: 40px;
+   }
+   @media(max-width:639px) {
+     font-size: 50px;
+     line-height: 54px;
+     padding-top: 30px;
+   }
+   @media(max-width:479px) {
+     font-size: 33px;
+     line-height: 40px;
+   }
+   @media (max-width:420px) {
+     padding-top: 15px;
+   }
+ }
+
+ h2 {
+   padding-left: 5px;
+   padding-top: 30px;
+   color: @main;
+   font-size: 25px;
+   font-weight: 700;
+   line-height: 30px;
+   padding-bottom: 60px;
+   @media(max-width: 767px) {
+     text-align: center;
+     padding-top: 15px;
+     padding-bottom: 35px;
+   }
+   @media(max-width:639px) {
+     font-size: 18px;
+   }
+ }
+
+ .form-header {
+   display: flex;
+   justify-content: space-between;
+   align-content: space-between;
+   flex-wrap: wrap;
+   width: 610px;
+   height: 200px;
+   margin-bottom: 75px;
+   .form-group {
+     width: 290px;
+     @media(max-width: 767px) {
+       margin: 0 5px 20px;
+     }
+   }
+   .form-control {
+     color: @main;
+     font-size: 15px;
+     font-weight: 400;
+     border-radius: 2px;
+     border-style: solid;
+     border-width: 2px;
+     border-color: #222222;
+     box-sizing: border-box;
+     background-color: #ffffff;
+     height: 55px;
+     width: 100%;
+     padding-left: 15px;
+     &::placeholder {
+       color: @main;
+     }
+     &:hover,
+     &:active,
+     &.active,
+     &:focus {
+       border-color: @main;
+       box-shadow: 12px 7px 10px @main;
+     }
+     @media(max-width:639px) {
+       text-align: center;
+       padding: 0;
+     }
+   }
+   @media(max-width:767px) {
+     width: 100%;
+     justify-content: space-around;
+     margin-bottom: 40px;
+     height: auto;
+   }
+   @media(max-width:639px) {
+     margin-bottom: 20px;
+   }
+ }
+
+ .form-header-btn {
+   width: 290px;
+   background-color: @accent;
+   line-height: 50px;
+   color: @main;
+   font-size: 16px;
+   font-weight: 600;
+   text-align: center;
+   text-transform: uppercase;
+   &:hover,
+   &:active,
+   &.active,
+   &:focus {
+     background-color: @main;
+     color: #fff;
+   }
+   @media(max-width:767px) {
+     margin: 0 5px 20px;
+   }
+ }
+
+ .xs-button {
+   display: none;
+   span {
+     width: 21px;
+     background-color: #000;
+     height: 3px;
+     display: block;
+     margin-bottom: 4px;
+   }
+   @media (max-width:991px) {
+     display: block;
+   }
+   @media(max-width:420px) {
+     margin-top: 15px;
+   }
+ }
+
+ .xs-close {
+   font-size: 25px;
+   position: fixed;
+   z-index: 9999;
+   right: 20px;
+   font-weight: bold;
+   top: 20px;
+   color: #000;
+ }
+
+ .ads-menu {
+   top: 0;
+   bottom: 0;
+   left: 0;
+   right: 0;
+   display: -ms-flexbox;
+   display: flex;
+   position: fixed;
+   background-color: #fff;
+   width: 100%;
+   height: 100%;
+   z-index: 999;
+   margin: auto;
+   -ms-flex-direction: column;
+   flex-direction: column;
+   -ms-flex-align: center;
+   align-items: center;
+   -ms-flex-pack: center;
+   justify-content: center;
+ }
