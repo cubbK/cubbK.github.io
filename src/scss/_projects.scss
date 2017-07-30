@@ -5,11 +5,14 @@
 }
 
 .project {
-    padding-bottom: 50px;
-    
+    padding-bottom: 15px;
+    margin-bottom: 50px; 
+    box-shadow: 3px 3px 9px 0px #222;
+    background-color: #fefefe;
 }
 
 .project-img {
+    
     border-radius: 3px 3px 0 0;
     width: 300px;
     height: 150px;
@@ -29,6 +32,7 @@
 
 .project-role,
 .project-type {
+    padding-left: 10px;
     font-size: 18px;
     padding-top: 10px;
     span {

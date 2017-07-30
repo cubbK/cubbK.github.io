@@ -30,7 +30,7 @@
      inkscape:pageshadow="2"
      inkscape:zoom="15.839192"
      inkscape:cx="18.647288"
-     inkscape:cy="33.430855"
+     inkscape:cy="18.278567"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -40,7 +40,8 @@
      inkscape:window-height="1057"
      inkscape:window-x="1912"
      inkscape:window-y="-8"
-     inkscape:window-maximized="1" />
+     inkscape:window-maximized="1"
+     inkscape:pagecheckerboard="true" />
   <metadata
      id="metadata5">
     <rdf:RDF>
@@ -49,7 +50,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -140,12 +141,6 @@
        style="fill:#ffffff;fill-opacity:1;stroke-width:0.17857143"
        d="M 19.390795,27.591149 V 8.2950502 l 10.491072,0.063981 c 9.3348,0.05693 10.609158,0.098364 11.5625,0.375943 3.37525,0.9827519 5.234655,2.7890798 6.002178,5.8308448 0.199498,0.79063 0.247822,3.384757 0.247822,13.303571 0,12.267434 -0.0018,12.327008 -0.400386,13.594543 -0.939295,2.986686 -3.12147,4.660245 -6.831757,5.239427 -0.68134,0.106359 -5.272282,0.181747 -11.116072,0.182539 l -9.955357,0.0013 z m 18.644489,12.50654 c 0.28572,-0.145208 0.767863,-0.572743 1.071429,-0.950081 l 0.551939,-0.686068 0.05506,-9.849646 c 0.03028,-5.417306 0.0049,-10.267466 -0.05637,-10.778135 -0.131995,-1.099918 -0.657056,-1.949452 -1.517154,-2.454714 -0.583082,-0.342529 -0.964063,-0.370947 -5.758321,-0.429522 l -5.133929,-0.06272 V 27.690819 40.49484 l 5.133929,-0.06657 c 4.076314,-0.05286 5.240946,-0.120957 5.653417,-0.330581 z"
        id="path4529"
-       inkscape:connector-curvature="0"
-       transform="matrix(0.26458333,0,0,0.26458333,0.03855243,-0.05325171)" />
-    <path
-       style="fill:#ffffff;fill-opacity:1;stroke-width:0.17857143"
-       d="m 28.140795,31.865382 c 0,-6.968692 0.02657,-7.678383 0.279632,-7.468363 0.766219,0.635906 0.791797,0.900651 0.791797,8.195646 v 6.973154 h -0.535715 -0.535714 z"
-       id="path4531"
        inkscape:connector-curvature="0"
        transform="matrix(0.26458333,0,0,0.26458333,0.03855243,-0.05325171)" />
     <path
