@@ -4,6 +4,9 @@
     padding-top: 50px;
     font-size: 40px;
     letter-spacing: 2px;
+    @media(max-width:1250px) {
+        text-align: center;
+    }
 }
 
 .page-role,
@@ -18,6 +21,9 @@
         font-weight: 700;
         padding-right: 5px;
     }
+    @media(max-width:1250px) {
+        text-align: center;
+    }
 }
 
 .page-images {
@@ -26,7 +32,13 @@
     padding-top: 50px;
     padding-bottom: 100px;
     flex-wrap: wrap;
-    
+    @media(max-width:992px) {
+        flex-direction: column;
+        align-items: center;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-bottom: 50px;
+    }
 }
 
 .page-image {
@@ -37,6 +49,9 @@
         width: 350px;
         height: 500px;
         margin: 50px  50px 0;
+        @media(max-width:992px) {
+            margin: 50px 0 0;
+        }
     }
     img {
         height: 100%;
@@ -59,5 +74,9 @@
     &:active {
         background-color: $accent-alt;
         color: $white;
+    }
+    @media(max-width:1250px) {
+        margin-left: auto;
+        margin-right: auto;
     }
 }
