@@ -4,8 +4,12 @@
     padding-top: 50px;
     font-size: 40px;
     letter-spacing: 2px;
-    @media(max-width:1250px) {
+    @media(max-width: 1250px) {
         text-align: center;
+    }
+    @media(max-width:480px) {
+        padding-top: 20px;
+        font-size: 30px;
     }
 }
 
@@ -32,11 +36,11 @@
     padding-top: 50px;
     padding-bottom: 100px;
     flex-wrap: wrap;
-    @media(max-width:992px) {
+    @media(max-width: 992px) {
         flex-direction: column;
         align-items: center;
-        padding-left: 15px;
-        padding-right: 15px;
+        padding-left: 25px;
+        padding-right: 25px;
         padding-bottom: 50px;
     }
 }
@@ -48,14 +52,29 @@
     &.small {
         width: 350px;
         height: 500px;
-        margin: 50px  50px 0;
-        @media(max-width:992px) {
+        margin: 50px 50px 0;
+        @media(max-width: 992px) {
             margin: 50px 0 0;
         }
     }
     img {
         height: 100%;
         width: 100%;
+    }
+    @media(max-width:850px) {
+        height: auto;
+        width: auto;
+        img {
+            height: auto;
+        }
+        &.small {
+            height: auto;
+            width: auto;
+            margin-top: 25px;
+            img {
+                height: auto;
+            }
+        }
     }
 }
 
